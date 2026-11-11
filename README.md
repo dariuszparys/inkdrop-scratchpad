@@ -4,7 +4,7 @@ An Inkdrop plugin for one throwaway note. The scratchpad moves itself to Trash
 once it has gone 24 hours without an edit. When something in it is worth
 keeping, one shortcut turns it into a normal note.
 
-![The scratchpad note open in Inkdrop, marked with the scratchpad tag](screenshots/01-scratchpad-open.jpg)
+![The scratchpad note open in Inkdrop, marked with the scratchpad tag](https://github.com/dariuszparys/inkdrop-scratchpad/raw/main/screenshots/01-scratchpad-open.jpg)
 
 Requires Inkdrop 6. Tested on macOS; the Windows and Linux shortcuts are defined
 but untested.
@@ -26,7 +26,7 @@ Or install it from **Preferences > Plugins** in Inkdrop.
 
 Both are also under **Plugins > Scratchpad**.
 
-![The Plugins > Scratchpad menu with its three commands and shortcuts](screenshots/02-plugins-menu.jpg)
+![The Plugins > Scratchpad menu with its three commands and shortcuts](https://github.com/dariuszparys/inkdrop-scratchpad/raw/main/screenshots/02-plugins-menu.jpg)
 
 - **Open** always takes you to the same note, titled `Scratchpad`, with the
   cursor in the text. There is only ever one scratchpad.
@@ -34,7 +34,7 @@ Both are also under **Plugins > Scratchpad**.
   title and puts the cursor in the title field. Type a title and the note is an
   ordinary note. The next **Open** starts a fresh scratchpad.
 
-![A kept scratchpad: the tag is gone and a title is being typed](screenshots/04-keep-title-typed.jpg)
+![A kept scratchpad: the tag is gone and a title is being typed](https://github.com/dariuszparys/inkdrop-scratchpad/raw/main/screenshots/04-keep-title-typed.jpg)
 
 ## How expiry works
 
@@ -56,7 +56,7 @@ the same rule, and **Open** picks the most recently edited one.
 
 To check right away, choose **Plugins > Scratchpad > Clean Up Expired Scratchpad Now**.
 
-![Notification: the scratchpad expired and was moved to Trash](screenshots/05-expired-notice.jpg)
+![Notification: the scratchpad expired and was moved to Trash](https://github.com/dariuszparys/inkdrop-scratchpad/raw/main/screenshots/05-expired-notice.jpg)
 
 ## Settings
 

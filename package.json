@@ -11,6 +11,11 @@
   "repository": "https://github.com/dariuszparys/inkdrop-scratchpad",
   "license": "MIT",
   "main": "./lib/index.js",
+  "files": [
+    "lib",
+    "keymaps",
+    "menus"
+  ],
   "scripts": {
     "test": "node --test"
   },
