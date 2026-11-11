@@ -4,7 +4,18 @@ An Inkdrop plugin for one throwaway note. The scratchpad moves itself to Trash
 once it has gone 24 hours without an edit. When something in it is worth
 keeping, one shortcut turns it into a normal note.
 
-Requires Inkdrop 6.
+![The scratchpad note open in Inkdrop, marked with the scratchpad tag](screenshots/01-scratchpad-open.jpg)
+
+Requires Inkdrop 6. Tested on macOS; the Windows and Linux shortcuts are defined
+but untested.
+
+## Install
+
+```sh
+ipm install scratchpad
+```
+
+Or install it from **Preferences > Plugins** in Inkdrop.
 
 ## Use it
 
@@ -15,11 +26,15 @@ Requires Inkdrop 6.
 
 Both are also under **Plugins > Scratchpad**.
 
+![The Plugins > Scratchpad menu with its three commands and shortcuts](screenshots/02-plugins-menu.jpg)
+
 - **Open** always takes you to the same note, titled `Scratchpad`, with the
   cursor in the text. There is only ever one scratchpad.
 - **Keep** removes the `scratchpad` tag, moves the note to Inbox, clears the
   title and puts the cursor in the title field. Type a title and the note is an
   ordinary note. The next **Open** starts a fresh scratchpad.
+
+![A kept scratchpad: the tag is gone and a title is being typed](screenshots/04-keep-title-typed.jpg)
 
 ## How expiry works
 
@@ -40,6 +55,8 @@ If you add the `scratchpad` tag to more notes by hand, each of them expires by
 the same rule, and **Open** picks the most recently edited one.
 
 To check right away, choose **Plugins > Scratchpad > Clean Up Expired Scratchpad Now**.
+
+![Notification: the scratchpad expired and was moved to Trash](screenshots/05-expired-notice.jpg)
 
 ## Settings
 
@@ -75,3 +92,7 @@ npm test
 
 To install by hand, copy this folder to `packages/scratchpad` in Inkdrop's user
 data directory and reload Inkdrop.
+
+## License
+
+[MIT](LICENSE)

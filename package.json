@@ -8,12 +8,13 @@
     "expire",
     "trash"
   ],
+  "repository": "https://github.com/dariuszparys/inkdrop-scratchpad",
   "license": "MIT",
   "main": "./lib/index.js",
   "scripts": {
     "test": "node --test"
   },
   "engines": {
-    "inkdrop": "^6.x"
+    "inkdrop": "^6.0.0"
   }
 }
