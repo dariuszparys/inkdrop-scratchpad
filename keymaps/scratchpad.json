@@ -1,0 +1,14 @@
+{
+  ".platform-darwin": {
+    "cmd-alt-s": "scratchpad:open",
+    "cmd-alt-shift-s": "scratchpad:keep"
+  },
+  ".platform-linux": {
+    "ctrl-alt-s": "scratchpad:open",
+    "ctrl-alt-shift-s": "scratchpad:keep"
+  },
+  ".platform-win32": {
+    "ctrl-alt-s": "scratchpad:open",
+    "ctrl-alt-shift-s": "scratchpad:keep"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "menu": [
+    {
+      "label": "Plugins",
+      "submenu": [
+        {
+          "label": "Scratchpad",
+          "submenu": [
+            {
+              "label": "Open Scratchpad",
+              "command": "scratchpad:open"
+            },
+            {
+              "label": "Keep Scratchpad as Note",
+              "command": "scratchpad:keep"
+            },
+            {
+              "label": "Clean Up Expired Scratchpad Now",
+              "command": "scratchpad:sweep-now"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

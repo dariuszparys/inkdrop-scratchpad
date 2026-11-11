@@ -1,0 +1,19 @@
+{
+  "name": "scratchpad",
+  "version": "0.2.0",
+  "description": "One throwaway scratchpad note that moves itself to Trash after 24 hours without edits",
+  "keywords": [
+    "scratchpad",
+    "temporary",
+    "expire",
+    "trash"
+  ],
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "inkdrop": "^6.x"
+  }
+}
